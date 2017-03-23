@@ -1,0 +1,16 @@
+#yakker-input {
+  width: 100%;
+}
+
+small {
+  color: rgb(169, 169, 169);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+li::before {
+  content: "💬 ";
+}

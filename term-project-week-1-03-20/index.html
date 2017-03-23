@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yakker</title>
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+
+    <!-- Insert header here -->
+    <center><img src="pics/logo.svg" width="100" height="100"></center>
+    <center><h1>Yakker</h1></center>
+    <hr>
+    <!-- Wrap in .container, and use .row -->
+    <!-- See http://getskeleton.com/#grid -->
+    <!-- See https://github.com/dhg/Skeleton/blob/master/css/skeleton.css#L81 -->
+    <div class="container">
+      <div class="row">
+        <div class="columns">
+          <textarea id="yakker-input" placeholder="Write something here..."></textarea>
+          <button class="button-primary u-pull-right" id="yakker-submit">Yak!</button>
+          <ul id="yakker-list-container"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
